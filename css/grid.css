@@ -1,0 +1,35 @@
+header {
+    grid-area: header;
+}
+main {
+    grid-area: main;
+}
+aside {
+    grid-area: aside;
+}
+footer {
+    grid-area: footer;
+}
+.gallery {
+    grid-area: gallery;
+}
+.contact {
+    grid-area: contact;
+}
+.contact-form {
+    grid-area: contact-form;
+}
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    "nav"
+    "header"
+    "main"
+    "aside"
+    "gallery"
+    "contact"
+    "contact-form"
+    "footer";
+    grid-template-columns: 1fr;
+    font-size: 16pt;
+}
